@@ -1,0 +1,27 @@
+# Never commit engagement data, creds, or loot
+*.env
+.env*
+*.pem
+*.key
+*.ovpn
+*.kdbx
+creds/
+loot/
+scans/
+*.nmap
+*.gnmap
+*.xml
+scope.txt
+targets.txt
+
+# Tool output
+*.log
+nuclei-output/
+recon/
+*.session
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
