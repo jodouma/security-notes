@@ -38,6 +38,7 @@ Hands-on (authorized labs only)
 - [Kali recon playbook — step by step](hands-on/kali-recon-playbook.md)
 - [Tooling & example commands](hands-on/tooling-commands.md)
 - [Blue-team playbooks](hands-on/blue-team-playbooks.md)
+- [HTB Fireflow — Langflow to Kubernetes host root](hands-on/htb-fireflow/README.md)
 
 IaC security
 - [IaC security & scanning](iac-security/README.md)
