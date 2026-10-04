@@ -15,7 +15,7 @@ can be chained into host-root impact:
 
 ## Files
 
-- `fireflow-htb-walkthrough.pdf` - command-by-command narrative, rationale, checkpoints, and failed attempts.
+- `fireflow-htb-walkthrough.pdf` - command-by-command narrative, rationale, checkpoints, failed attempts, a six-stage capability chain, trust-boundary map, and direct-Kubelet request sequence diagram.
 - `scripts/mcp_auth_enum.sh` - authenticate to the lab MCP endpoint and record non-secret JWT metadata.
 - `scripts/mcp_admin_callback.sh` - lab-only proof of top-level custom-tool execution.
 - `scripts/mcp_k8s_root_v2.sh` - lab-only one-shot direct-Kubelet reader. It demonstrates the correct distinction between API-server proxy requests and a direct Kubelet WebSocket handshake.
